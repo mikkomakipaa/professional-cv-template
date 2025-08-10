@@ -1,4 +1,4 @@
-# HoneyPot - Professional CV Website
+# Professional CV Website Template
 
 A modern, responsive professional CV website built with React, Vite, and Tailwind CSS, featuring an AI-powered chatbot for interactive candidate engagement.
 
@@ -16,7 +16,7 @@ A modern, responsive professional CV website built with React, Vite, and Tailwin
 
 ## 🚀 Live Demo
 
-Visit the live site: [https://honeypot-mikkomakipaa.vercel.app](https://honeypot-mikkomakipaa.vercel.app)
+Visit the live site: [https://mikko-makipaa-cv.vercel.app](https://mikko-makipaa-cv.vercel.app)
 
 ## 🛠️ Technology Stack
 
@@ -40,8 +40,8 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/mikkomakipaa/HoneyPot.git
-cd HoneyPot
+git clone https://github.com/mikkomakipaa/professional-cv-website.git
+cd professional-cv-website
 ```
 
 ### 2. Install Dependencies
@@ -129,7 +129,7 @@ npm run build
 ## 📁 Project Structure
 
 ```
-HoneyPot/
+professional-cv-website/
 ├── src/
 │   ├── assets/          # Images and static files
 │   ├── App.jsx          # Main application component
@@ -215,7 +215,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have questions about using this template:
 
-1. Check the [Issues](https://github.com/mikkomakipaa/HoneyPot/issues) page
+1. Check the [Issues](https://github.com/mikkomakipaa/professional-cv-website/issues) page
 2. Create a new issue with detailed description
 3. Provide error messages and browser information
 
