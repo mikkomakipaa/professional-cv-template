@@ -276,19 +276,6 @@ function App() {
                     </div>
                   </div>
                   
-                  <div className="flex flex-col sm:flex-row sm:items-center gap-4 justify-start">
-                    <a 
-                      href="https://www.linkedin.com/in/mikkomakipaa" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center gap-3 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105"
-                    >
-                      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8-59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clipRule="evenodd" />
-                      </svg>
-                      View LinkedIn Profile
-                    </a>
-                  </div>
                 </div>
               </div>
             </header>
@@ -305,14 +292,14 @@ function App() {
               </div>
               <div className="mb-12">
                 <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 text-left">
-                  I lead development and transformation work in technology and operations for medium and large organizations. My experience spans over 15 years in roles covering program leadership, sourcing, vendor management and operational excellence. Most of my work has been in complex, multi-stakeholder environments where clarity and structure are essential.
+                  Senior technology executive with 17+ years leading enterprise transformation initiatives. Proven track record delivering measurable results: 70% cost reductions, 27% IT optimization, and profitable platform launches. Specializes in complex, multi-stakeholder environments requiring structured governance and stakeholder alignment.
                 </p>
               </div>
 
               {/* Core Skills Section - moved above achievements */}
               <div className="mb-12">
                 <h3 className="text-2xl font-bold mb-8 text-gray-900 dark:text-gray-100 text-left">Core Skills</h3>
-                <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
                   {/* Development Management */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-md transition-shadow">
                     <div className="flex items-start gap-4">
@@ -323,12 +310,12 @@ function App() {
                       </div>
                       <div className="flex-1">
                         <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Development Management</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400">Leading development teams, technical architecture decisions, and software delivery processes.</p>
+                        <p className="text-sm text-gray-600 dark:text-gray-400">End-to-end transformation program leadership from concept to delivery. Specializes in greenfield initiatives and building scalable solutions from ground up across enterprise environments.</p>
                       </div>
                     </div>
                   </div>
 
-                  {/* Program Management */}
+                  {/* Program and Project Management */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-md transition-shadow">
                     <div className="flex items-start gap-4">
                       <div className="p-3 bg-green-50 dark:bg-green-900/20 rounded-lg">
@@ -337,44 +324,14 @@ function App() {
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Program Management</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400">Orchestrating large-scale transformation programs and coordinating multiple workstreams.</p>
+                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Program and Project Management</h4>
+                        <p className="text-sm text-gray-600 dark:text-gray-400">Portfolio leadership spanning multi-year enterprise programs and 30+ strategic IT initiatives. Expert in pioneering first-of-kind solutions with comprehensive business case development and stakeholder alignment.</p>
                       </div>
                     </div>
                   </div>
 
-                  {/* Project Management */}
+                  {/* Product & Process Development */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-md transition-shadow">
-                    <div className="flex items-start gap-4">
-                      <div className="p-3 bg-purple-50 dark:bg-purple-900/20 rounded-lg">
-                        <svg className="w-6 h-6 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                      </div>
-                      <div className="flex-1">
-                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Project Management</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400">Delivering complex IT projects on time and budget while managing stakeholder expectations.</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Product Development */}
-                  <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-md transition-shadow">
-                    <div className="flex items-start gap-4">
-                      <div className="p-3 bg-orange-50 dark:bg-orange-900/20 rounded-lg">
-                        <svg className="w-6 h-6 text-orange-600 dark:text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 7.172V5L8 4z" />
-                        </svg>
-                      </div>
-                      <div className="flex-1">
-                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Product Development</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400">Defining product strategy, managing roadmaps, and driving innovation from concept to launch.</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Process Development */}
-                  <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-md transition-shadow lg:col-span-2">
                     <div className="flex items-start gap-4">
                       <div className="p-3 bg-indigo-50 dark:bg-indigo-900/20 rounded-lg">
                         <svg className="w-6 h-6 text-indigo-600 dark:text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -383,8 +340,8 @@ function App() {
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Process Development</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400">Designing and optimizing business processes, implementing automation solutions, and driving operational excellence initiatives.</p>
+                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Product & Process Development</h4>
+                        <p className="text-sm text-gray-600 dark:text-gray-400">International product portfolio leadership across seven enterprise solutions. Drives operational excellence through process automation and optimization, delivering significant efficiency gains and profitability improvements in high-sensitivity environments.</p>
                       </div>
                     </div>
                   </div>
@@ -392,96 +349,32 @@ function App() {
               </div>
 
               <div className="text-left">
-                <h3 className="text-2xl font-bold mb-8 text-gray-900 dark:text-gray-100">Key Achievements</h3>
-                <div className="grid gap-4 md:grid-cols-2">
-                  {/* Project Delivery Card */}
-                  <div className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-4">
-                    <div className="flex items-start gap-3 mb-2">
-                      <div className="p-2 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
-                        <svg className="w-5 h-5 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                      </div>
-                      <div className="flex-1">
-                        <div className="flex items-center justify-between mb-2">
-                          <div className="text-xs font-semibold px-2 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded">PROJECT DELIVERY</div>
-                          <div className="text-xs text-gray-500 dark:text-gray-400">Sofigate</div>
-                        </div>
-                        <p className="text-sm text-gray-700 dark:text-gray-300">Delivered multiple high-impact transformation projects as an external consultant.</p>
-                      </div>
+                <h3 className="text-2xl font-bold mb-8 text-gray-900 dark:text-gray-100">Impact Metrics</h3>
+                <div className="grid gap-6 md:grid-cols-3 lg:grid-cols-3">
+                  {/* Financial Impact */}
+                  <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
+                    <div className="text-center">
+                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">70%</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400">Cost Reduction</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">Process Automation</div>
                     </div>
                   </div>
 
-                  {/* Cost Optimization Card */}
-                  <div className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-4">
-                    <div className="flex items-start gap-3 mb-2">
-                      <div className="p-2 bg-green-50 dark:bg-green-900/20 rounded-lg">
-                        <svg className="w-5 h-5 text-green-600 dark:text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                        </svg>
-                      </div>
-                      <div className="flex-1">
-                        <div className="flex items-center justify-between mb-2">
-                          <div className="text-xs font-semibold px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 rounded">COST OPTIMIZATION</div>
-                          <div className="text-xs text-gray-500 dark:text-gray-400">RSM Finland</div>
-                        </div>
-                        <p className="text-sm text-gray-700 dark:text-gray-300">Reduced IT costs by 27% while increasing user satisfaction by 20%.</p>
-                      </div>
+                  {/* Scale Impact */}
+                  <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
+                    <div className="text-center">
+                      <div className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">12K+</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400">Global Users</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">7 Countries</div>
                     </div>
                   </div>
 
-                  {/* Platform Implementation Card */}
-                  <div className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-4">
-                    <div className="flex items-start gap-3 mb-2">
-                      <div className="p-2 bg-purple-50 dark:bg-purple-900/20 rounded-lg">
-                        <svg className="w-5 h-5 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9" />
-                        </svg>
-                      </div>
-                      <div className="flex-1">
-                        <div className="flex items-center justify-between mb-2">
-                          <div className="text-xs font-semibold px-2 py-1 bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 rounded">PLATFORM IMPLEMENTATION</div>
-                          <div className="text-xs text-gray-500 dark:text-gray-400">Accountor</div>
-                        </div>
-                        <p className="text-sm text-gray-700 dark:text-gray-300">Delivered service portal for 12,000 customers across seven countries.</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Business Growth Card */}
-                  <div className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-4">
-                    <div className="flex items-start gap-3 mb-2">
-                      <div className="p-2 bg-amber-50 dark:bg-amber-900/20 rounded-lg">
-                        <svg className="w-5 h-5 text-amber-600 dark:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
-                        </svg>
-                      </div>
-                      <div className="flex-1">
-                        <div className="flex items-center justify-between mb-2">
-                          <div className="text-xs font-semibold px-2 py-1 bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300 rounded">BUSINESS GROWTH</div>
-                          <div className="text-xs text-gray-500 dark:text-gray-400">Accountor</div>
-                        </div>
-                        <p className="text-sm text-gray-700 dark:text-gray-300">Made financial services platform profitable within first year.</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Process Automation Card - spans full width */}
-                  <div className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-4 md:col-span-2">
-                    <div className="flex items-start gap-3 mb-2">
-                      <div className="p-2 bg-indigo-50 dark:bg-indigo-900/20 rounded-lg">
-                        <svg className="w-5 h-5 text-indigo-600 dark:text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                        </svg>
-                      </div>
-                      <div className="flex-1">
-                        <div className="flex items-center justify-between mb-2">
-                          <div className="text-xs font-semibold px-2 py-1 bg-indigo-100 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 rounded">PROCESS AUTOMATION</div>
-                          <div className="text-xs text-gray-500 dark:text-gray-400">Accountor</div>
-                        </div>
-                        <p className="text-sm text-gray-700 dark:text-gray-300">Cut recurring costs by 70% via process automation.</p>
-                      </div>
+                  {/* Portfolio Impact */}
+                  <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
+                    <div className="text-center">
+                      <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">30+</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400">Strategic Programs</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">Multi-year initiatives</div>
                     </div>
                   </div>
                 </div>
@@ -512,7 +405,7 @@ function App() {
                       </div>
                     </div>
                     <div className="flex-1 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
-                      <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
+                      <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
                         <div className="flex items-baseline gap-3">
                           <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Senior Advisor</h3>
                           <p className="text-blue-600 dark:text-blue-400 font-medium">Sofigate</p>
@@ -527,6 +420,9 @@ function App() {
                           </div>
                         </div>
                       </div>
+                      <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+                        External consulting leadership for enterprise clients across platform migrations, ICT renewals, and ERP transitions. Specializes in multi-vendor environment optimization and structured governance frameworks that align technology investments with strategic business objectives.
+                      </p>
                     </div>
                   </div>
 
@@ -538,7 +434,7 @@ function App() {
                       </div>
                     </div>
                     <div className="flex-1 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
-                      <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
+                      <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
                         <div className="flex items-baseline gap-3">
                           <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Interim CIO</h3>
                           <p className="text-purple-600 dark:text-purple-400 font-medium">RSM Finland</p>
@@ -548,6 +444,9 @@ function App() {
                           <span className="block md:inline md:ml-2 text-xs text-gray-500 dark:text-gray-500">(1 year, 9 months)</span>
                         </div>
                       </div>
+                      <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+                        Cloud transformation executive for mid-market audit firm. Delivered comprehensive IT modernization including cost optimization, enhanced collaboration frameworks, and enterprise security architecture. Achieved 27% cost reduction while improving user satisfaction.
+                      </p>
                     </div>
                   </div>
 
@@ -559,7 +458,7 @@ function App() {
                       </div>
                     </div>
                     <div className="flex-1 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
-                      <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
+                      <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
                         <div className="flex items-baseline gap-3">
                           <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Enterprise Architect</h3>
                           <p className="text-purple-600 dark:text-purple-400 font-medium">RSM Finland</p>
@@ -569,27 +468,33 @@ function App() {
                           <span className="block md:inline md:ml-2 text-xs text-gray-500 dark:text-gray-500">(2 months)</span>
                         </div>
                       </div>
+                      <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+                        Strategic IT architecture assessment and roadmap development. Created comprehensive enterprise architecture blueprint including current-state analysis, future-state design, and implementation pathway for organizational transformation.
+                      </p>
                     </div>
                   </div>
 
                   {/* Accountor - Development Manager */}
                   <div className="relative flex items-center gap-6 md:gap-8">
                     <div className="relative z-10 flex-shrink-0">
-                      <div className="w-8 h-8 bg-indigo-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg flex items-center justify-center">
+                      <div className="w-8 h-8 bg-green-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg flex items-center justify-center">
                         <div className="w-2 h-2 bg-white rounded-full"></div>
                       </div>
                     </div>
                     <div className="flex-1 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
-                      <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
+                      <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
                         <div className="flex items-baseline gap-3">
                           <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Development Manager</h3>
-                          <p className="text-indigo-600 dark:text-indigo-400 font-medium">Accountor</p>
+                          <p className="text-green-600 dark:text-green-400 font-medium">Accountor</p>
                         </div>
                         <div className="text-sm text-gray-600 dark:text-gray-400">
                           <span>May 2010 - Nov 2018</span>
                           <span className="block md:inline md:ml-2 text-xs text-gray-500 dark:text-gray-500">(8 years, 7 months)</span>
                         </div>
                       </div>
+                      <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+                        Portfolio leadership for international product development and process optimization. Key achievements: global service portal serving 12,000+ customers across 7 countries, financial platform achieving profitability within 12 months, 70% cost reduction through payment automation, and successful delivery of 25+ strategic IT initiatives spanning architecture, data, and digital transformation.
+                      </p>
                     </div>
                   </div>
 
@@ -601,7 +506,7 @@ function App() {
                       </div>
                     </div>
                     <div className="flex-1 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
-                      <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
+                      <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
                         <div className="flex items-baseline gap-3">
                           <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Product Manager</h3>
                           <p className="text-green-600 dark:text-green-400 font-medium">Accountor</p>
@@ -611,27 +516,9 @@ function App() {
                           <span className="block md:inline md:ml-2 text-xs text-gray-500 dark:text-gray-500">(1 year, 7 months)</span>
                         </div>
                       </div>
-                    </div>
-                  </div>
-
-                  {/* Accountor - Solution Consultant */}
-                  <div className="relative flex items-center gap-6 md:gap-8">
-                    <div className="relative z-10 flex-shrink-0">
-                      <div className="w-8 h-8 bg-green-400 rounded-full border-4 border-white dark:border-gray-900 shadow-lg flex items-center justify-center">
-                        <div className="w-2 h-2 bg-white rounded-full"></div>
-                      </div>
-                    </div>
-                    <div className="flex-1 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
-                      <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
-                        <div className="flex items-baseline gap-3">
-                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Solution Consultant</h3>
-                          <p className="text-green-600 dark:text-green-400 font-medium">Accountor</p>
-                        </div>
-                        <div className="text-sm text-gray-600 dark:text-gray-400">
-                          <span>May 2007 - Sep 2008</span>
-                          <span className="block md:inline md:ml-2 text-xs text-gray-500 dark:text-gray-500">(1 year, 5 months)</span>
-                        </div>
-                      </div>
+                      <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+                        Product strategy and lifecycle management for enterprise travel and expense management platform.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -651,6 +538,18 @@ function App() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                   Contact Me
+                </a>
+                
+                <a 
+                  href="https://www.linkedin.com/in/mikkomakipaa" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 px-8 py-4 bg-white dark:bg-gray-800 border-2 border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-600 rounded-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105"
+                >
+                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clipRule="evenodd" />
+                  </svg>
+                  LinkedIn Profile
                 </a>
                 
                 <a 
