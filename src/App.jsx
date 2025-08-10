@@ -353,7 +353,7 @@ function App() {
                 <div className="grid gap-6 md:grid-cols-3 lg:grid-cols-3">
                   {/* Financial Impact */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
-                    <div className="text-center">
+                    <div className="text-left">
                       <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">70%</div>
                       <div className="text-sm font-medium text-gray-600 dark:text-gray-400">Cost Reduction</div>
                       <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">Process Automation</div>
@@ -362,7 +362,7 @@ function App() {
 
                   {/* Scale Impact */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
-                    <div className="text-center">
+                    <div className="text-left">
                       <div className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">12K+</div>
                       <div className="text-sm font-medium text-gray-600 dark:text-gray-400">Global Users</div>
                       <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">7 Countries</div>
@@ -371,7 +371,7 @@ function App() {
 
                   {/* Portfolio Impact */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
-                    <div className="text-center">
+                    <div className="text-left">
                       <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">30+</div>
                       <div className="text-sm font-medium text-gray-600 dark:text-gray-400">Strategic Programs</div>
                       <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">Multi-year initiatives</div>
