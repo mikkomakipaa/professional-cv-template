@@ -261,18 +261,11 @@ function App() {
                     </div>
                     <div className="text-left">
                       <div className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide">Current</div>
-                      <div className="font-semibold text-gray-900 dark:text-gray-100">Sofigate</div>
-                    </div>
-                    <div className="text-left">
-                      <div className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide">Location</div>
-                      <div className="font-semibold text-gray-900 dark:text-gray-100">Finland</div>
+                      <div className="font-semibold text-gray-900 dark:text-gray-100">Senior Advisor at Sofigate</div>
                     </div>
                     <div className="text-left">
                       <div className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide">Available</div>
-                      <div className="flex items-center gap-1">
-                        <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                        <div className="font-semibold text-green-600 dark:text-green-400 text-xs">Development Lead, Head of Development, Interim Manager and Project Lead</div>
-                      </div>
+                      <div className="font-semibold text-green-600 dark:text-green-400">Development Lead, Head of Development, Interim Manager and Project Lead</div>
                     </div>
                   </div>
                   
