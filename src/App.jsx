@@ -606,6 +606,9 @@ function App() {
                   Book a meeting
                 </a>
               </div>
+              <p className="text-sm text-gray-600 dark:text-gray-400 mt-6 text-center">
+                Note: Email uses PassMail forwarding service for privacy. Messages are automatically forwarded to my primary email address.
+              </p>
             </div>
             </main>
       </div>
