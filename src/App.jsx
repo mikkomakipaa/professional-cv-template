@@ -234,22 +234,22 @@ function App() {
       <div className="container mx-auto max-w-4xl px-8 md:px-16 lg:px-32 xl:px-40 py-8">
             {/* Header Section */}
             <header className="mb-16">
-              <div className="flex flex-col md:flex-row md:items-start gap-8 mb-8">
+              <div className="flex flex-row items-center gap-4 mb-8">
                 {/* Professional Photo */}
-                <div className="flex-shrink-0 mx-auto md:mx-0">
+                <div className="flex-shrink-0">
                   <img 
                     src={profilePhoto} 
                     alt="Mikko Makipaa - Professional Photo"
-                    className="w-32 h-32 md:w-44 md:h-44 rounded-full border-4 border-white dark:border-gray-700 shadow-2xl ring-4 ring-blue-100 dark:ring-blue-900/30 object-cover"
+                    className="w-20 h-20 sm:w-24 sm:h-24 md:w-44 md:h-44 rounded-full border-2 md:border-4 border-white dark:border-gray-700 shadow-2xl ring-2 md:ring-4 ring-blue-100 dark:ring-blue-900/30 object-cover"
                   />
                 </div>
                 
                 {/* Name and Title */}
-                <div className="flex-1 text-left">
-                  <h1 className="text-4xl md:text-5xl font-bold mb-3 bg-gradient-to-r from-gray-900 to-gray-600 dark:from-gray-100 dark:to-gray-300 bg-clip-text text-transparent text-left">
+                <div className="flex-1 min-w-0">
+                  <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-1 md:mb-3 bg-gradient-to-r from-gray-900 to-gray-600 dark:from-gray-100 dark:to-gray-300 bg-clip-text text-transparent text-left leading-tight">
                     Mikko Mäkipää
                   </h1>
-                  <p className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-6 font-medium text-left">
+                  <p className="text-sm sm:text-base md:text-2xl text-gray-700 dark:text-gray-300 mb-4 md:mb-6 font-medium text-left leading-tight">
                     Transformation programs and projects
                   </p>
                   
@@ -288,11 +288,9 @@ function App() {
                 <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900 dark:text-gray-100 text-left">
                   Professional Overview
                 </h2>
-                <div className="w-16 h-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mb-8"></div>
-              </div>
-              <div className="mb-12">
+                <div className="w-16 h-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mb-6"></div>
                 <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 text-left">
-                  Senior technology executive with 17+ years leading enterprise transformation initiatives. Proven track record delivering measurable results: 70% cost reductions, 27% IT optimization, and profitable platform launches. Specializes in complex, multi-stakeholder environments requiring structured governance and stakeholder alignment.
+                  Senior technology leader with over 17 years' experience delivering enterprise transformation programs, IT modernization, and product development across international environments. Skilled in managing multi-stakeholder initiatives from concept to delivery, including greenfield builds and process optimization in high-sensitivity domains. Proven ability to align governance, technology, and business needs to achieve measurable outcomes—such as 70% cost reductions, profitable platform launches, and multi-country service deployments. Experienced in leading over 30 strategic IT initiatives and seven product portfolios, combining structured methods with adaptable delivery models to ensure efficiency, scalability, and sustained operational improvements.
                 </p>
               </div>
 
@@ -309,8 +307,8 @@ function App() {
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Development Management</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400">End-to-end transformation program leadership from concept to delivery. Specializes in greenfield initiatives and building scalable solutions from ground up across enterprise environments.</p>
+                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Development Management</h4>
+                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">End-to-end transformation program leadership from concept to delivery. Specializes in greenfield initiatives and building scalable solutions from ground up across enterprise environments.</p>
                       </div>
                     </div>
                   </div>
@@ -324,8 +322,8 @@ function App() {
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Program and Project Management</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400">Portfolio leadership spanning multi-year enterprise programs and 30+ strategic IT initiatives. Expert in pioneering first-of-kind solutions with comprehensive business case development and stakeholder alignment.</p>
+                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Program and Project Management</h4>
+                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">Portfolio leadership spanning multi-year enterprise programs and 30+ strategic IT initiatives. Expert in pioneering first-of-kind solutions with comprehensive business case development and stakeholder alignment.</p>
                       </div>
                     </div>
                   </div>
@@ -340,8 +338,23 @@ function App() {
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Product & Process Development</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400">International product portfolio leadership across seven enterprise solutions. Drives operational excellence through process automation and optimization, delivering significant efficiency gains and profitability improvements in high-sensitivity environments.</p>
+                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Product & Process Development</h4>
+                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">International product portfolio leadership across seven enterprise solutions. Drives operational excellence through process automation and optimization, delivering significant efficiency gains and profitability improvements in high-sensitivity environments.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Leadership */}
+                  <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-md transition-shadow">
+                    <div className="flex items-start gap-4">
+                      <div className="p-3 bg-purple-50 dark:bg-purple-900/20 rounded-lg">
+                        <svg className="w-6 h-6 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                      </div>
+                      <div className="flex-1">
+                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Leadership</h4>
+                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">Cross-functional team coordination with vendors and stakeholders delivering services on schedule and within budget. Full lifecycle management of product and process development from concept to implementation across international environments, driving operational efficiency through strategic process optimization, automation, and technology adoption.</p>
                       </div>
                     </div>
                   </div>
@@ -350,31 +363,64 @@ function App() {
 
               <div className="text-left">
                 <h3 className="text-2xl font-bold mb-8 text-gray-900 dark:text-gray-100">Impact Metrics</h3>
-                <div className="grid gap-6 md:grid-cols-3 lg:grid-cols-3">
-                  {/* Financial Impact */}
+                <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                  {/* Customer Excellence Award */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">70%</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400">Cost Reduction</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">Process Automation</div>
+                      <div className="text-3xl font-bold text-yellow-600 dark:text-yellow-400 mb-2">5 Stars</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Customer Satisfaction</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Awarded by exceeding customer expectation</div>
+                      <div className="text-xs font-medium text-blue-600 dark:text-blue-400">Sofigate</div>
                     </div>
                   </div>
 
-                  {/* Scale Impact */}
+                  {/* IT Cost Reduction */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">12K+</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400">Global Users</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">7 Countries</div>
+                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">1/3</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">IT Cost Optimization</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Slashed one third of operational costs and improved user satisfaction by 20%</div>
+                      <div className="text-xs font-medium text-purple-600 dark:text-purple-400">RSM Finland</div>
                     </div>
                   </div>
 
-                  {/* Portfolio Impact */}
+                  {/* Global Platform Management */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">30+</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400">Strategic Programs</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">Multi-year initiatives</div>
+                      <div className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">12K</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Global Platform Implementation</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Implementing and managing global B2B platform</div>
+                      <div className="text-xs font-medium text-green-600 dark:text-green-400">Accountor</div>
+                    </div>
+                  </div>
+
+                  {/* Product Portfolio */}
+                  <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
+                    <div className="text-left">
+                      <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">7</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Product Owner</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Managing seven distinct products</div>
+                      <div className="text-xs font-medium text-green-600 dark:text-green-400">Accountor</div>
+                    </div>
+                  </div>
+
+                  {/* Process Automation */}
+                  <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
+                    <div className="text-left">
+                      <div className="text-3xl font-bold text-indigo-600 dark:text-indigo-400 mb-2">70%</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Process Automation</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Reduced recurring costs by 70%</div>
+                      <div className="text-xs font-medium text-green-600 dark:text-green-400">Accountor</div>
+                    </div>
+                  </div>
+
+                  {/* Financial Service Platform */}
+                  <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
+                    <div className="text-left">
+                      <div className="text-3xl font-bold text-emerald-600 dark:text-emerald-400 mb-2">&lt;365</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Rapid ROI Achievement</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Financial service platform under one year</div>
+                      <div className="text-xs font-medium text-green-600 dark:text-green-400">Accountor</div>
                     </div>
                   </div>
                 </div>
@@ -420,8 +466,8 @@ function App() {
                           </div>
                         </div>
                       </div>
-                      <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
-                        External consulting leadership for enterprise clients across platform migrations, ICT renewals, and ERP transitions. Specializes in multi-vendor environment optimization and structured governance frameworks that align technology investments with strategic business objectives.
+                      <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
+                        Lead technology and process transformation programs for clients across retail, industrial, education, and energy sectors. Designed and implemented governance frameworks, sourcing strategies, and agile delivery models. Directed large-scale migrations, ERP renewals, and compliance-driven integrations, achieving on-time delivery without service disruption.
                       </p>
                     </div>
                   </div>
@@ -444,8 +490,8 @@ function App() {
                           <span className="block md:inline md:ml-2 text-xs text-gray-500 dark:text-gray-500">(1 year, 9 months)</span>
                         </div>
                       </div>
-                      <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
-                        Cloud transformation executive for mid-market audit firm. Delivered comprehensive IT modernization including cost optimization, enhanced collaboration frameworks, and enterprise security architecture. Achieved 27% cost reduction while improving user satisfaction.
+                      <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
+                        Directed a full IT modernization program for a mid-market audit firm, including cloud migration, collaboration tool deployment, and security architecture upgrade. Achieved 27% cost reduction and 20% increase in user satisfaction. Established enterprise architecture roadmap and governance structure for long-term development.
                       </p>
                     </div>
                   </div>
@@ -468,7 +514,7 @@ function App() {
                           <span className="block md:inline md:ml-2 text-xs text-gray-500 dark:text-gray-500">(2 months)</span>
                         </div>
                       </div>
-                      <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+                      <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
                         Strategic IT architecture assessment and roadmap development. Created comprehensive enterprise architecture blueprint including current-state analysis, future-state design, and implementation pathway for organizational transformation.
                       </p>
                     </div>
@@ -492,8 +538,8 @@ function App() {
                           <span className="block md:inline md:ml-2 text-xs text-gray-500 dark:text-gray-500">(8 years, 7 months)</span>
                         </div>
                       </div>
-                      <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
-                        Portfolio leadership for international product development and process optimization. Key achievements: global service portal serving 12,000+ customers across 7 countries, financial platform achieving profitability within 12 months, 70% cost reduction through payment automation, and successful delivery of 25+ strategic IT initiatives spanning architecture, data, and digital transformation.
+                      <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
+                        Led 25 IT initiatives from inception to deployment, serving as Product Owner for seven enterprise solutions. Introduced automation in payment processes, reducing recurring costs by 70%. Designed and launched a multi-country service portal for 12,000 customers. Turned a new financial services platform profitable within 12 months and expanded SaaS offerings to four European markets.
                       </p>
                     </div>
                   </div>
@@ -516,8 +562,8 @@ function App() {
                           <span className="block md:inline md:ml-2 text-xs text-gray-500 dark:text-gray-500">(1 year, 7 months)</span>
                         </div>
                       </div>
-                      <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
-                        Product strategy and lifecycle management for enterprise travel and expense management platform.
+                      <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
+                        Managed lifecycle and strategy for a travel and expense management platform, overseeing product enhancements and market alignment.
                       </p>
                     </div>
                   </div>
