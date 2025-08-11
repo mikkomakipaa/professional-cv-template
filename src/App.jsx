@@ -350,7 +350,7 @@ function App() {
                       </div>
                       <div className="flex-1">
                         <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Leadership</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">Cross-functional team coordination with vendors and stakeholders delivering services on schedule and within budget. Full lifecycle management of product and process development from concept to implementation across international environments, driving operational efficiency through strategic process optimization, automation, and technology adoption.</p>
+                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">Cross-functional team coordination with vendors and stakeholders delivering services on schedule and within budget. Full lifecycle management of product and process development from concept to implementation across international environments.</p>
                       </div>
                     </div>
                   </div>
@@ -360,42 +360,42 @@ function App() {
               <div className="text-left">
                 <h3 className="text-2xl font-bold mb-8 text-gray-900 dark:text-gray-100">Impact Metrics</h3>
                 <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                  {/* Customer Excellence Award */}
+                  {/* Customer Satisfaction */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-yellow-600 dark:text-yellow-400 mb-2">5 Stars</div>
+                      <div className="text-3xl font-bold text-yellow-600 dark:text-yellow-400 mb-2">5-Star Rating</div>
                       <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Customer Satisfaction</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Awarded by exceeding customer expectation</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Awarded for consistently exceeding client expectations</div>
                       <div className="text-xs font-medium text-blue-600 dark:text-blue-400">Sofigate</div>
                     </div>
                   </div>
 
-                  {/* IT Cost Reduction */}
+                  {/* IT Cost Optimization */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">1/3</div>
+                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">27% Reduction</div>
                       <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">IT Cost Optimization</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Slashed one third of operational costs and improved user satisfaction by 20%</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Cut operational costs by over one-fourth and boosted user satisfaction by 20%</div>
                       <div className="text-xs font-medium text-purple-600 dark:text-purple-400">RSM Finland</div>
                     </div>
                   </div>
 
-                  {/* Global Platform Management */}
+                  {/* Global Platform Rollout */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">12K</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Global Platform Implementation</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Implementing and managing global B2B platform</div>
+                      <div className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">12,000 Users</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Global Platform Rollout</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Implemented and managed a global B2B platform, spanning seven countries</div>
                       <div className="text-xs font-medium text-green-600 dark:text-green-400">Accountor</div>
                     </div>
                   </div>
 
-                  {/* Product Portfolio */}
+                  {/* Product Leadership */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">7</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Product Owner</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Managing seven distinct products</div>
+                      <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">7 Solutions</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Product Leadership</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Directed development and lifecycle management of seven distinct products</div>
                       <div className="text-xs font-medium text-green-600 dark:text-green-400">Accountor</div>
                     </div>
                   </div>
@@ -403,19 +403,19 @@ function App() {
                   {/* Process Automation */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-indigo-600 dark:text-indigo-400 mb-2">70%</div>
+                      <div className="text-3xl font-bold text-indigo-600 dark:text-indigo-400 mb-2">70% Cost Savings</div>
                       <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Process Automation</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Reduced recurring costs by 70%</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Automated recurring processes, reducing recurring payment costs by 70%</div>
                       <div className="text-xs font-medium text-green-600 dark:text-green-400">Accountor</div>
                     </div>
                   </div>
 
-                  {/* Financial Service Platform */}
+                  {/* Rapid ROI */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-emerald-600 dark:text-emerald-400 mb-2">&lt;365</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Rapid ROI Achievement</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Financial service platform under one year</div>
+                      <div className="text-3xl font-bold text-emerald-600 dark:text-emerald-400 mb-2">&lt;12 Months</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Rapid ROI</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Delivered a profitable financial services platform within one year</div>
                       <div className="text-xs font-medium text-green-600 dark:text-green-400">Accountor</div>
                     </div>
                   </div>
