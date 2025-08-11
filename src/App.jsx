@@ -233,8 +233,8 @@ function App() {
       {/* Main Content Area */}
       <div className="container mx-auto max-w-4xl px-8 md:px-16 lg:px-32 xl:px-40 py-8">
             {/* Header Section */}
-            <header className="mb-16">
-              <div className="flex flex-row items-center gap-4 mb-8">
+            <header className="mb-8 md:mb-16">
+              <div className="flex flex-row items-start gap-3 md:gap-4 mb-8">
                 {/* Professional Photo */}
                 <div className="flex-shrink-0">
                   <img 
@@ -271,7 +271,7 @@ function App() {
                       <div className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide">Available</div>
                       <div className="flex items-center gap-1">
                         <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                        <div className="font-semibold text-green-600 dark:text-green-400 text-xs">Yes</div>
+                        <div className="font-semibold text-green-600 dark:text-green-400 text-xs">Development Lead, Head of Development, Interim Manager and Project Lead</div>
                       </div>
                     </div>
                   </div>
@@ -281,7 +281,7 @@ function App() {
             </header>
 
             {/* Main Content Sections */}
-            <main className="space-y-20">
+            <main className="space-y-8 md:space-y-20">
             {/* Professional Overview Section */}
             <section>
               <div className="mb-12">
@@ -290,7 +290,10 @@ function App() {
                 </h2>
                 <div className="w-16 h-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mb-6"></div>
                 <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 text-left">
-                  Senior technology leader with over 17 years' experience delivering enterprise transformation programs, IT modernization, and product development across international environments. Skilled in managing multi-stakeholder initiatives from concept to delivery, including greenfield builds and process optimization in high-sensitivity domains. Proven ability to align governance, technology, and business needs to achieve measurable outcomes—such as 70% cost reductions, profitable platform launches, and multi-country service deployments. Experienced in leading over 30 strategic IT initiatives and seven product portfolios, combining structured methods with adaptable delivery models to ensure efficiency, scalability, and sustained operational improvements.
+                  Technology leader with 17+ years' experience delivering transformation programs. Skilled in guiding complex, multi-stakeholder initiatives from concept to delivery, achieving measurable results such as 70% cost reductions and multi-country service implementations. Combines structured governance with adaptable delivery models to ensure efficiency, scalability, and lasting operational improvements.
+                </p>
+                <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 text-left mt-4">
+                  For additional details about my experience and aspirations, feel free to ask my personalized AI assistant.
                 </p>
               </div>
 
@@ -467,7 +470,7 @@ function App() {
                         </div>
                       </div>
                       <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
-                        Lead technology and process transformation programs for clients across retail, industrial, education, and energy sectors. Designed and implemented governance frameworks, sourcing strategies, and agile delivery models. Directed large-scale migrations, ERP renewals, and compliance-driven integrations, achieving on-time delivery without service disruption.
+                        Lead technology and process transformation programs for clients across retail, industrial, education, and energy sectors. Designed and implemented governance frameworks, sourcing strategies, and agile delivery models.
                       </p>
                     </div>
                   </div>
@@ -491,7 +494,7 @@ function App() {
                         </div>
                       </div>
                       <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
-                        Directed a full IT modernization program for a mid-market audit firm, including cloud migration, collaboration tool deployment, and security architecture upgrade. Achieved 27% cost reduction and 20% increase in user satisfaction. Established enterprise architecture roadmap and governance structure for long-term development.
+                        Directed a full IT modernization program for a mid-market audit firm, including cloud migration, collaboration tool deployment, and security architecture upgrade. Achieved 27% cost reduction and 20% increase in user satisfaction.
                       </p>
                     </div>
                   </div>
@@ -515,7 +518,7 @@ function App() {
                         </div>
                       </div>
                       <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
-                        Strategic IT architecture assessment and roadmap development. Created comprehensive enterprise architecture blueprint including current-state analysis, future-state design, and implementation pathway for organizational transformation.
+                        Strategic IT architecture assessment, service catalogue and IT roadmap creation.
                       </p>
                     </div>
                   </div>
@@ -622,8 +625,8 @@ function App() {
       {/* Footer */}
       <footer className="w-full mt-16 pt-8 border-t border-gray-200 dark:border-gray-700">
         <div className="container mx-auto max-w-7xl px-4 md:px-8">
-          <p className="text-center text-sm text-gray-500 dark:text-gray-400 py-4">
-            Vibe coding experiment using Claude Code, OpenAI, GitHub and Vercel. 
+          <p className="text-center text-sm text-gray-500 dark:text-gray-400 py-4 flex items-center justify-center flex-wrap">
+            <span>Vibe coding experiment using Claude Code, OpenAI, GitHub and Vercel.</span>
             <a 
               href="https://github.com/mikkomakipaa/professional-cv-website" 
               target="_blank" 
