@@ -233,7 +233,7 @@ function App() {
       {/* Main Content Area */}
       <div className="container mx-auto max-w-4xl px-8 md:px-16 lg:px-32 xl:px-40 py-8">
             {/* Header Section */}
-            <header className="mb-8 md:mb-16">
+            <header className="mb-4 md:mb-16">
               <div className="flex flex-row items-start gap-3 md:gap-4 mb-8">
                 {/* Professional Photo */}
                 <div className="flex-shrink-0">
@@ -254,7 +254,7 @@ function App() {
                   </p>
                   
                   {/* Compact Quick Facts */}
-                  <div className="flex flex-wrap gap-x-8 gap-y-3 mb-6 text-sm">
+                  <div className="flex flex-wrap gap-x-8 gap-y-3 mb-4 text-sm">
                     <div className="text-left">
                       <div className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide">Experience</div>
                       <div className="font-semibold text-gray-900 dark:text-gray-100">17+ Years</div>
@@ -263,6 +263,8 @@ function App() {
                       <div className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide">Current</div>
                       <div className="font-semibold text-gray-900 dark:text-gray-100">Senior Advisor at Sofigate</div>
                     </div>
+                  </div>
+                  <div className="mb-6 text-sm">
                     <div className="text-left">
                       <div className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide">Open to</div>
                       <div className="font-semibold text-green-600 dark:text-green-400">Development Lead, Head of Development, Interim Manager and Project Lead</div>
@@ -274,23 +276,55 @@ function App() {
             </header>
 
             {/* Main Content Sections */}
-            <main className="space-y-8 md:space-y-20">
-            {/* About me Section */}
+            <main className="space-y-4 md:space-y-20">
+            
+            {/* About me Timeline */}
             <section>
-              <div className="mb-12">
+              <div className="mb-6 md:mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900 dark:text-gray-100 text-left">
                   About me
                 </h2>
-                <div className="w-16 h-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mb-6"></div>
-                <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 text-left">
-                  Technology leader with 17+ years' experience delivering transformation programs. Skilled in guiding complex, multi-stakeholder initiatives from concept to delivery, achieving measurable results such as 70% cost reductions and multi-country service implementations. Combines structured governance with adaptable delivery models to ensure efficiency, scalability, and lasting operational improvements.
-                </p>
-                <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 text-left mt-4">
-                  For additional details about my experience and aspirations, feel free to ask my personalized AI assistant.
-                </p>
+                <div className="w-16 h-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mb-8"></div>
               </div>
+              
+              {/* Career Progression Summary */}
+              <div className="p-8 bg-gradient-to-r from-blue-50 via-purple-50 to-green-50 dark:from-gray-800 dark:via-gray-800 dark:to-gray-800 rounded-xl border border-gray-200 dark:border-gray-700">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-6 text-center">My 15+ years in IT</h3>
+                <div className="grid md:grid-cols-4 gap-6">
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-emerald-500 rounded-full mx-auto mb-3 flex items-center justify-center">
+                      <span className="text-white font-bold">1</span>
+                    </div>
+                    <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Product background</h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">Driving product vision, profitability and development, aligning solutions with market and user needs.</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-green-500 rounded-full mx-auto mb-3 flex items-center justify-center">
+                      <span className="text-white font-bold">2</span>
+                    </div>
+                    <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Development Management</h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">Leading multi-solution portfolios, coordinating vendors, and delivering large-scale solutions.</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-purple-500 rounded-full mx-auto mb-3 flex items-center justify-center">
+                      <span className="text-white font-bold">3</span>
+                    </div>
+                    <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Executive IT Leadership</h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">Shaping modernization strategies, overseeing enterprise architecture, and optimizing IT operations.</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-blue-500 rounded-full mx-auto mb-3 flex items-center justify-center">
+                      <span className="text-white font-bold">4</span>
+                    </div>
+                    <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Transformation Delivery</h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">Implementing enterprise solutions and operating models that enable measurable business improvements.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
 
-              {/* Core Skills Section - moved above achievements */}
+            {/* Core Skills Section */}
+            <section>
               <div className="mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900 dark:text-gray-100 text-left">
                   Core Skills
