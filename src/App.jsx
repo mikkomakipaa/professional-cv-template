@@ -264,7 +264,7 @@ function App() {
                       <div className="font-semibold text-gray-900 dark:text-gray-100">Senior Advisor at Sofigate</div>
                     </div>
                     <div className="text-left">
-                      <div className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide">Available</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide">Open to</div>
                       <div className="font-semibold text-green-600 dark:text-green-400">Development Lead, Head of Development, Interim Manager and Project Lead</div>
                     </div>
                   </div>
@@ -275,11 +275,11 @@ function App() {
 
             {/* Main Content Sections */}
             <main className="space-y-8 md:space-y-20">
-            {/* Professional Overview Section */}
+            {/* About me Section */}
             <section>
               <div className="mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900 dark:text-gray-100 text-left">
-                  Professional Overview
+                  About me
                 </h2>
                 <div className="w-16 h-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mb-6"></div>
                 <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 text-left">
@@ -292,7 +292,10 @@ function App() {
 
               {/* Core Skills Section - moved above achievements */}
               <div className="mb-12">
-                <h3 className="text-2xl font-bold mb-8 text-gray-900 dark:text-gray-100 text-left">Core Skills</h3>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900 dark:text-gray-100 text-left">
+                  Core Skills
+                </h2>
+                <div className="w-16 h-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mb-8"></div>
                 <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
                   {/* Development Management */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-md transition-shadow">
@@ -358,7 +361,10 @@ function App() {
               </div>
 
               <div className="text-left">
-                <h3 className="text-3xl md:text-4xl font-bold mb-8 text-gray-900 dark:text-gray-100">Achievements</h3>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900 dark:text-gray-100 text-left">
+                  Achievements
+                </h2>
+                <div className="w-16 h-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mb-8"></div>
                 <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                   {/* Customer Satisfaction */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
