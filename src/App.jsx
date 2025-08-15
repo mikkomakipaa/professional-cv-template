@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import './App.css';
-import profilePhoto from './assets/placeholder-photo.jpg';
+import profilePhoto from './assets/chef-placeholder.jpg';
 
 function ChatbotWidget({ alwaysOpen }) {
   const [_open, _setOpen] = useState(alwaysOpen || false);
   const [messages, setMessages] = useState([
-    { sender: 'bot', text: 'Hi! I\'m your career sidekick that answers recruiter questions with facts from my work history — no fluff, no guesswork.' }
+    { sender: 'bot', text: 'Hi! I\'m your culinary career sidekick that answers questions about my gastronomic journey — no fluff, just facts from my kitchen adventures!' }
   ]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
@@ -239,7 +239,7 @@ function App() {
                 <div className="flex-shrink-0">
                   <img 
                     src={profilePhoto} 
-                    alt="John Doe - Professional Photo"
+                    alt="John Doe - Culinary Professional"
                     className="w-20 h-20 sm:w-24 sm:h-24 md:w-44 md:h-44 rounded-full border-2 md:border-4 border-white dark:border-gray-700 shadow-2xl ring-2 md:ring-4 ring-blue-100 dark:ring-blue-900/30 object-cover"
                   />
                 </div>
@@ -250,7 +250,7 @@ function App() {
                     John Doe
                   </h1>
                   <p className="text-sm sm:text-base md:text-2xl text-gray-700 dark:text-gray-300 mb-4 md:mb-6 font-medium text-left leading-tight">
-                    Transformation programs and projects
+                    Master of Culinary Transformation & Gastronomic Expeditions
                   </p>
                   
                   {/* Compact Quick Facts */}
@@ -261,13 +261,13 @@ function App() {
                     </div>
                     <div className="text-left">
                       <div className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide">Current</div>
-                      <div className="font-semibold text-gray-900 dark:text-gray-100">Principal Consultant at TechnoVault Solutions</div>
+                      <div className="font-semibold text-gray-900 dark:text-gray-100">Principal Chef Consultant at EpicureanVault Group</div>
                     </div>
                   </div>
                   <div className="mb-6 text-sm">
                     <div className="text-left">
                       <div className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide">Open to</div>
-                      <div className="font-semibold text-green-600 dark:text-green-400">Technical Director, Innovation Lead, Interim CTO and Program Manager</div>
+                      <div className="font-semibold text-green-600 dark:text-green-400">Head Chef, Culinary Director, Menu Architect and Innovation Lead</div>
                     </div>
                   </div>
                   
@@ -289,35 +289,35 @@ function App() {
               
               {/* Career Progression Summary */}
               <div className="p-8 bg-gradient-to-r from-blue-50 via-purple-50 to-green-50 dark:from-gray-800 dark:via-gray-800 dark:to-gray-800 rounded-xl border border-gray-200 dark:border-gray-700">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-6 text-center">My 14+ years in Tech Innovation</h3>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-6 text-center">My 14+ years in Culinary Innovation</h3>
                 <div className="grid md:grid-cols-4 gap-6">
                   <div className="text-center">
                     <div className="w-12 h-12 bg-emerald-500 rounded-full mx-auto mb-3 flex items-center justify-center">
                       <span className="text-white font-bold">1</span>
                     </div>
-                    <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Product background</h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">Driving product vision, profitability and development, aligning solutions with market and user needs.</p>
+                    <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Product Background</h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">Driving culinary vision, menu profitability, and recipe development, aligning dishes with market trends and diner needs.</p>
                   </div>
                   <div className="text-center">
                     <div className="w-12 h-12 bg-green-500 rounded-full mx-auto mb-3 flex items-center justify-center">
                       <span className="text-white font-bold">2</span>
                     </div>
-                    <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Development Management</h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">Leading multi-solution portfolios, coordinating vendors, and delivering large-scale solutions.</p>
+                    <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Kitchen Development Management</h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">Leading multi-restaurant portfolios, coordinating farmers, suppliers, and culinary teams, delivering large-scale banquets and seasonal menus.</p>
                   </div>
                   <div className="text-center">
                     <div className="w-12 h-12 bg-purple-500 rounded-full mx-auto mb-3 flex items-center justify-center">
                       <span className="text-white font-bold">3</span>
                     </div>
-                    <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Executive IT Leadership</h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">Shaping modernization strategies, overseeing enterprise architecture, and optimizing IT operations.</p>
+                    <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Executive Gastronomy Leadership</h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">Shaping modernization strategies for farm-to-table operations, overseeing kitchen architecture, and optimizing service workflows.</p>
                   </div>
                   <div className="text-center">
                     <div className="w-12 h-12 bg-blue-500 rounded-full mx-auto mb-3 flex items-center justify-center">
                       <span className="text-white font-bold">4</span>
                     </div>
                     <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Transformation Delivery</h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">Implementing enterprise solutions and operating models that enable measurable business improvements.</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">Implementing innovative cooking techniques and dining models that enable measurable business improvements.</p>
                   </div>
                 </div>
               </div>
@@ -340,8 +340,8 @@ function App() {
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Development Management</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">End-to-end transformation program leadership from concept to delivery. Specializes in greenfield initiatives and building scalable solutions from ground up across enterprise environments.</p>
+                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Kitchen & Menu Management</h4>
+                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">From concept to delivery of seasonal menus across flagship restaurants and food festivals. Specializes in farm-to-table initiatives and building scalable dining experiences from ground up across international locations.</p>
                       </div>
                     </div>
                   </div>
@@ -355,8 +355,8 @@ function App() {
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Program and Project Management</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">Portfolio leadership spanning multi-year enterprise programs and 30+ strategic IT initiatives. Expert in pioneering first-of-kind solutions with comprehensive business case development and stakeholder alignment.</p>
+                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Restaurant Program Management</h4>
+                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">Oversight of multi-year expansion programs and 30+ signature culinary events. Expert in pioneering first-of-kind dining concepts with comprehensive menu development and supplier alignment.</p>
                       </div>
                     </div>
                   </div>
@@ -371,8 +371,8 @@ function App() {
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Product & Process Development</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">International product portfolio leadership across seven enterprise solutions. Drives operational excellence through process automation and optimization, delivering significant efficiency gains and profitability improvements in high-sensitivity environments.</p>
+                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Recipe & Process Development</h4>
+                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">International menu portfolio leadership across eleven flagship restaurants. Drives operational excellence through kitchen automation and ingredient optimization, delivering significant efficiency gains and profitability improvements in high-volume dining environments.</p>
                       </div>
                     </div>
                   </div>
@@ -387,7 +387,7 @@ function App() {
                       </div>
                       <div className="flex-1">
                         <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Leadership</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">Cross-functional team coordination with vendors and stakeholders delivering services on schedule and within budget. Full lifecycle management of product and process development from concept to implementation across international environments.</p>
+                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">Coordinating cross-functional teams from chefs to sommeliers, delivering exceptional dining experiences on schedule and within budget. Full lifecycle management of menu and service development from concept to implementation across international restaurants.</p>
                       </div>
                     </div>
                   </div>
@@ -403,60 +403,60 @@ function App() {
                   {/* Customer Satisfaction */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">Platinum Award</div>
+                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">Platinum Ladle Award</div>
                       <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Innovation Excellence</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Recognized for breakthrough AI implementation strategies</div>
-                      <div className="text-xs font-medium text-blue-600 dark:text-blue-400">TechnoVault Solutions</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Recognized for breakthrough AI-inspired plating strategies</div>
+                      <div className="text-xs font-medium text-blue-600 dark:text-blue-400">EpicureanVault Group</div>
                     </div>
                   </div>
 
                   {/* IT Cost Optimization */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">42% Efficiency Gain</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">System Performance</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Achieved massive performance optimization through ML-driven architecture</div>
-                      <div className="text-xs font-medium text-purple-600 dark:text-purple-400">NexusCore Dynamics</div>
+                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">42% Service Efficiency Gain</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Kitchen Performance</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Achieved massive kitchen performance optimization through ingredient workflow redesign</div>
+                      <div className="text-xs font-medium text-purple-600 dark:text-purple-400">NexusCore Dining</div>
                     </div>
                   </div>
 
                   {/* Global Platform Rollout */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">18,500 Users</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Global Marketplace Launch</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Deployed scalable cloud platform across nine international markets</div>
-                      <div className="text-xs font-medium text-green-600 dark:text-green-400">QuantumFlow Systems</div>
+                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">18,500 Guests Served</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Global Pop-up Launch</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Launched a global pop-up dining experience across nine countries</div>
+                      <div className="text-xs font-medium text-green-600 dark:text-green-400">QuantumFeast Kitchens</div>
                     </div>
                   </div>
 
                   {/* Product Leadership */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">11 Platforms</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Technology Portfolio</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Architected and led development of eleven cloud-native platforms</div>
-                      <div className="text-xs font-medium text-green-600 dark:text-green-400">QuantumFlow Systems</div>
+                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">11 Signature Menus</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Culinary Portfolio</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Created and rolled out seasonal menus for 11 flagship restaurants</div>
+                      <div className="text-xs font-medium text-green-600 dark:text-green-400">QuantumFeast Kitchens</div>
                     </div>
                   </div>
 
                   {/* Process Automation */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">83% Automation</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">AI-Driven Optimization</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Implemented intelligent automation reducing manual workflows by 83%</div>
-                      <div className="text-xs font-medium text-green-600 dark:text-green-400">QuantumFlow Systems</div>
+                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">83% Kitchen Automation</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Culinary Innovation</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Introduced intelligent cooking systems that reduced manual prep by 83%</div>
+                      <div className="text-xs font-medium text-green-600 dark:text-green-400">QuantumFeast Kitchens</div>
                     </div>
                   </div>
 
                   {/* Rapid ROI */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">&lt;8 Months</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Lightning ROI</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Achieved profitability for revolutionary fintech platform in under 8 months</div>
-                      <div className="text-xs font-medium text-green-600 dark:text-green-400">QuantumFlow Systems</div>
+                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">&lt;8 Months Lightning ROI</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Restaurant Success</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Turned a new farm-to-table restaurant profitable in under 8 months</div>
+                      <div className="text-xs font-medium text-green-600 dark:text-green-400">QuantumFeast Kitchens</div>
                     </div>
                   </div>
                 </div>
@@ -479,7 +479,7 @@ function App() {
                 
                 {/* Timeline Items */}
                 <div className="space-y-8">
-                  {/* TechnoVault Solutions - Current */}
+                  {/* EpicureanVault Group - Current */}
                   <div className="relative flex items-center gap-6 md:gap-8">
                     <div className="relative z-10 flex-shrink-0">
                       <div className="w-8 h-8 bg-blue-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg flex items-center justify-center">
@@ -489,8 +489,8 @@ function App() {
                     <div className="flex-1 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
                       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
                         <div className="flex items-baseline gap-3">
-                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Principal Consultant</h3>
-                          <p className="text-blue-600 dark:text-blue-400 font-medium">TechnoVault Solutions</p>
+                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Principal Chef Consultant</h3>
+                          <p className="text-blue-600 dark:text-blue-400 font-medium">EpicureanVault Group</p>
                         </div>
                         <div className="flex flex-col md:flex-row md:items-center gap-2">
                           <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300">
@@ -503,12 +503,12 @@ function App() {
                         </div>
                       </div>
                       <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
-                        Architect cutting-edge technology solutions for clients across fintech, gaming, healthcare, and renewable energy sectors. Spearhead digital transformation initiatives and implement scalable cloud architectures with DevOps excellence.
+                        Architect gourmet dining concepts for luxury resorts, cruise lines, and high-profile events. Lead culinary transformation projects, implement scalable service models, and introduce advanced farm-to-fork logistics.
                       </p>
                     </div>
                   </div>
 
-                  {/* NexusCore Dynamics - CTO */}
+                  {/* NexusCore Dining - Head Chef */}
                   <div className="relative flex items-center gap-6 md:gap-8">
                     <div className="relative z-10 flex-shrink-0">
                       <div className="w-8 h-8 bg-purple-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg flex items-center justify-center">
@@ -518,8 +518,8 @@ function App() {
                     <div className="flex-1 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
                       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
                         <div className="flex items-baseline gap-3">
-                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Chief Technology Officer</h3>
-                          <p className="text-purple-600 dark:text-purple-400 font-medium">NexusCore Dynamics</p>
+                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Head Chef</h3>
+                          <p className="text-purple-600 dark:text-purple-400 font-medium">NexusCore Dining</p>
                         </div>
                         <div className="text-sm text-gray-600 dark:text-gray-400">
                           <span>Aug 2018 - Feb 2020</span>
@@ -527,12 +527,12 @@ function App() {
                         </div>
                       </div>
                       <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
-                        Orchestrated comprehensive digital transformation for a mid-market analytics firm, including AI integration, microservices architecture, and zero-trust security implementation. Delivered 35% performance improvement and 25% cost optimization.
+                        Orchestrated a full restaurant rebrand, integrating molecular gastronomy, seasonal foraging, and zero-waste operations. Delivered 35% service speed improvement and cut costs by 25%.
                       </p>
                     </div>
                   </div>
 
-                  {/* NexusCore Dynamics - Solutions Architect */}
+                  {/* NexusCore Dining - Menu Architect */}
                   <div className="relative flex items-center gap-6 md:gap-8">
                     <div className="relative z-10 flex-shrink-0">
                       <div className="w-8 h-8 bg-purple-400 rounded-full border-4 border-white dark:border-gray-900 shadow-lg flex items-center justify-center">
@@ -542,8 +542,8 @@ function App() {
                     <div className="flex-1 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
                       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
                         <div className="flex items-baseline gap-3">
-                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Solutions Architect</h3>
-                          <p className="text-purple-600 dark:text-purple-400 font-medium">NexusCore Dynamics</p>
+                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Menu Architect</h3>
+                          <p className="text-purple-600 dark:text-purple-400 font-medium">NexusCore Dining</p>
                         </div>
                         <div className="text-sm text-gray-600 dark:text-gray-400">
                           <span>Jun 2018 - Jul 2018</span>
@@ -551,12 +551,12 @@ function App() {
                         </div>
                       </div>
                       <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
-                        Strategic technology blueprint design, API ecosystem architecture and cloud-native roadmap development.
+                        Designed strategic menu blueprints, supplier ecosystems, and culinary roadmaps for new location launches.
                       </p>
                     </div>
                   </div>
 
-                  {/* QuantumFlow Systems - Engineering Director */}
+                  {/* QuantumFeast Kitchens - Culinary Director */}
                   <div className="relative flex items-center gap-6 md:gap-8">
                     <div className="relative z-10 flex-shrink-0">
                       <div className="w-8 h-8 bg-green-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg flex items-center justify-center">
@@ -566,8 +566,8 @@ function App() {
                     <div className="flex-1 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
                       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
                         <div className="flex items-baseline gap-3">
-                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Engineering Director</h3>
-                          <p className="text-green-600 dark:text-green-400 font-medium">QuantumFlow Systems</p>
+                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Culinary Director</h3>
+                          <p className="text-green-600 dark:text-green-400 font-medium">QuantumFeast Kitchens</p>
                         </div>
                         <div className="text-sm text-gray-600 dark:text-gray-400">
                           <span>Sep 2012 - May 2018</span>
@@ -575,12 +575,12 @@ function App() {
                         </div>
                       </div>
                       <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
-                        Directed 30+ innovation projects from concept to production, serving as Technical Lead for nine cloud-native platforms. Implemented AI-driven automation reducing operational overhead by 75%. Architected and deployed a global marketplace serving 15,000+ active users. Transformed legacy monolith into profitable microservices platform within 8 months and scaled across six international markets.
+                        Directed 30+ innovation projects from concept to plate. Led nine international flagship kitchens, implemented automated sous-vide and fermentation labs, and scaled dining experiences across six countries.
                       </p>
                     </div>
                   </div>
 
-                  {/* QuantumFlow Systems - Innovation Lead */}
+                  {/* QuantumFeast Kitchens - Innovation Lead */}
                   <div className="relative flex items-center gap-6 md:gap-8">
                     <div className="relative z-10 flex-shrink-0">
                       <div className="w-8 h-8 bg-green-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg flex items-center justify-center">
@@ -591,7 +591,7 @@ function App() {
                       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
                         <div className="flex items-baseline gap-3">
                           <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Innovation Lead</h3>
-                          <p className="text-green-600 dark:text-green-400 font-medium">QuantumFlow Systems</p>
+                          <p className="text-green-600 dark:text-green-400 font-medium">QuantumFeast Kitchens</p>
                         </div>
                         <div className="text-sm text-gray-600 dark:text-gray-400">
                           <span>Jan 2011 - Aug 2012</span>
@@ -599,7 +599,7 @@ function App() {
                         </div>
                       </div>
                       <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
-                        Pioneered next-generation workflow automation platform, driving product vision and go-to-market strategy with focus on user experience optimization.
+                        Pioneered next-generation fusion dining concepts, driving flavor vision and go-to-table strategy with focus on diner experience optimization.
                       </p>
                     </div>
                   </div>

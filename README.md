@@ -40,8 +40,8 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/johndoe/professional-cv-website.git
-cd professional-cv-website
+git clone https://github.com/mikkomakipaa/professional-cv-template.git
+cd professional-cv-template
 ```
 
 ### 2. Install Dependencies
@@ -210,14 +210,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - AI integration with [OpenAI](https://openai.com/)
 - Deployed on [Vercel](https://vercel.com/)
 - Created with assistance from [Claude Code](https://claude.ai/code)
-
-## 📞 Support
-
-If you have questions about using this template:
-
-1. Check the [Issues](https://github.com/johndoe/professional-cv-website/issues) page
-2. Create a new issue with detailed description
-3. Provide error messages and browser information
 
 ---
 
