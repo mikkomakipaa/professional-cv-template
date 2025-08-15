@@ -67,7 +67,7 @@ function ChatbotWidget({ alwaysOpen }) {
           'OpenAI-Beta': 'assistants=v2'
         },
         body: JSON.stringify({
-          assistant_id: 'asst_PLACEHOLDER_ASSISTANT_ID'
+          assistant_id: 'asst_SAWgJNTGMIoidRR5FbUV4ATK'
         })
       });
       const runData = await runResponse.json();
