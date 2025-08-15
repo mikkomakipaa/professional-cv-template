@@ -70,6 +70,13 @@ function ChatbotWidget({ alwaysOpen }) {
           assistant_id: 'asst_SAWgJNTGMIoidRR5FbUV4ATK'
         })
       });
+      
+      if (!runResponse.ok) {
+        const errorData = await runResponse.json();
+        console.error('Run creation failed:', errorData);
+        throw new Error(`Failed to create run: ${errorData.error?.message || runResponse.statusText}`);
+      }
+      
       const runData = await runResponse.json();
 
       // Step 4: Poll for completion
@@ -99,7 +106,10 @@ function ChatbotWidget({ alwaysOpen }) {
         
         setMessages(msgs => [...msgs, { sender: 'bot', text: botReply }]);
       } else {
-        setMessages(msgs => [...msgs, { sender: 'bot', text: `Assistant error: ${run.status}. Please try again.` }]);
+        console.error('Assistant run failed:', run);
+        const errorStatus = run.status || 'unknown';
+        const errorDetails = run.last_error ? ` - ${run.last_error.message}` : '';
+        setMessages(msgs => [...msgs, { sender: 'bot', text: `Assistant error: ${errorStatus}${errorDetails}. Please try again.` }]);
       }
       
     } catch (err) {
