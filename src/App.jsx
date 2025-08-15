@@ -5,7 +5,7 @@ import profilePhoto from './assets/chef-placeholder.jpg';
 function ChatbotWidget({ alwaysOpen }) {
   const [_open, _setOpen] = useState(alwaysOpen || false);
   const [messages, setMessages] = useState([
-    { sender: 'bot', text: 'Hi! I\'m your culinary career sidekick that answers questions about my gastronomic journey — no fluff, just facts from my kitchen adventures!' }
+    { sender: 'bot', text: 'Hello! I\'m your Supreme Commander\'s digital assistant, here to explain my unnecessarily complicated culinary achievements and why everything I do is revolutionary (it isn\'t).' }
   ]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
@@ -250,7 +250,7 @@ function App() {
                     John Doe
                   </h1>
                   <p className="text-sm sm:text-base md:text-2xl text-gray-700 dark:text-gray-300 mb-4 md:mb-6 font-medium text-left leading-tight">
-                    Master of Culinary Transformation & Gastronomic Expeditions
+                    Supreme Commander of Culinary Chaos & Over-Seasoned Transformation
                   </p>
                   
                   {/* Compact Quick Facts */}
@@ -261,13 +261,13 @@ function App() {
                     </div>
                     <div className="text-left">
                       <div className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide">Current</div>
-                      <div className="font-semibold text-gray-900 dark:text-gray-100">Principal Chef Consultant at EpicureanVault Group</div>
+                      <div className="font-semibold text-gray-900 dark:text-gray-100">Principal Culinary Consultant at EpicureanVault Group</div>
                     </div>
                   </div>
                   <div className="mb-6 text-sm">
                     <div className="text-left">
                       <div className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide">Open to</div>
-                      <div className="font-semibold text-green-600 dark:text-green-400">Head Chef, Culinary Director, Menu Architect and Innovation Lead</div>
+                      <div className="font-semibold text-green-600 dark:text-green-400">Head Chaos Chef, Director of Culinary Overkill, Menu Architect and Innovation Lead</div>
                     </div>
                   </div>
                   
@@ -289,35 +289,35 @@ function App() {
               
               {/* Career Progression Summary */}
               <div className="p-8 bg-gradient-to-r from-blue-50 via-purple-50 to-green-50 dark:from-gray-800 dark:via-gray-800 dark:to-gray-800 rounded-xl border border-gray-200 dark:border-gray-700">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-6 text-center">My 14+ years in Culinary Innovation</h3>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-6 text-center">My 14+ years in Making Food a Bigger Deal Than It Needs to Be</h3>
                 <div className="grid md:grid-cols-4 gap-6">
                   <div className="text-center">
                     <div className="w-12 h-12 bg-emerald-500 rounded-full mx-auto mb-3 flex items-center justify-center">
                       <span className="text-white font-bold">1</span>
                     </div>
-                    <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Product Background</h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">Driving culinary vision, menu profitability, and recipe development, aligning dishes with market trends and diner needs.</p>
+                    <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Menu Visionary Extraordinaire</h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">I don't just cook food; I "conceptualize edible experiences" that require a thesaurus to describe and three hours to serve.</p>
                   </div>
                   <div className="text-center">
                     <div className="w-12 h-12 bg-green-500 rounded-full mx-auto mb-3 flex items-center justify-center">
                       <span className="text-white font-bold">2</span>
                     </div>
-                    <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Kitchen Development Management</h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">Leading multi-restaurant portfolios, coordinating farmers, suppliers, and culinary teams, delivering large-scale banquets and seasonal menus.</p>
+                    <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Kitchen Portfolio Magnate</h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">Managing multiple restaurants at once so I can ignore them equally. I once had a dozen chefs on speed dial just to argue about parsley placement.</p>
                   </div>
                   <div className="text-center">
                     <div className="w-12 h-12 bg-purple-500 rounded-full mx-auto mb-3 flex items-center justify-center">
                       <span className="text-white font-bold">3</span>
                     </div>
-                    <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Executive Gastronomy Leadership</h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">Shaping modernization strategies for farm-to-table operations, overseeing kitchen architecture, and optimizing service workflows.</p>
+                    <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Gastro-Architectural Strategist</h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">Designed kitchens so futuristic that staff needed training just to boil water.</p>
                   </div>
                   <div className="text-center">
                     <div className="w-12 h-12 bg-blue-500 rounded-full mx-auto mb-3 flex items-center justify-center">
                       <span className="text-white font-bold">4</span>
                     </div>
-                    <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Transformation Delivery</h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">Implementing innovative cooking techniques and dining models that enable measurable business improvements.</p>
+                    <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Transformation Guru</h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">Implemented "culinary operating models" nobody else understood, but investors clapped anyway.</p>
                   </div>
                 </div>
               </div>
@@ -340,8 +340,8 @@ function App() {
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Kitchen & Menu Management</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">From concept to delivery of seasonal menus across flagship restaurants and food festivals. Specializes in farm-to-table initiatives and building scalable dining experiences from ground up across international locations.</p>
+                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Bureaucratic Menu Management</h4>
+                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">Can stretch a recipe launch into a 12-month "culinary change program." Specializes in unnecessary complexity and making simple dishes sound impossibly sophisticated.</p>
                       </div>
                     </div>
                   </div>
@@ -355,8 +355,8 @@ function App() {
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Restaurant Program Management</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">Oversight of multi-year expansion programs and 30+ signature culinary events. Expert in pioneering first-of-kind dining concepts with comprehensive menu development and supplier alignment.</p>
+                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Restaurant Expansion Program Management</h4>
+                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">Think global domination, but with soup. Expert in opening restaurants in places nobody asked for them and convincing investors it's visionary.</p>
                       </div>
                     </div>
                   </div>
@@ -371,8 +371,8 @@ function App() {
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Recipe & Process Development</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">International menu portfolio leadership across eleven flagship restaurants. Drives operational excellence through kitchen automation and ingredient optimization, delivering significant efficiency gains and profitability improvements in high-volume dining environments.</p>
+                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Pretentious Recipe Development</h4>
+                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">Ingredient optimization using rare spices nobody can pronounce. Transforms ordinary ingredients into "artisanal experiences" with 47-step preparation processes.</p>
                       </div>
                     </div>
                   </div>
@@ -387,7 +387,7 @@ function App() {
                       </div>
                       <div className="flex-1">
                         <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Leadership</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">Coordinating cross-functional teams from chefs to sommeliers, delivering exceptional dining experiences on schedule and within budget. Full lifecycle management of menu and service development from concept to implementation across international restaurants.</p>
+                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">Motivating teams through confusing metaphors and expensive aprons. Successfully convinced entire kitchen staff that plating is "performance art" and cooking times are "artistic interpretation."</p>
                       </div>
                     </div>
                   </div>
@@ -396,7 +396,7 @@ function App() {
 
               <div className="text-left">
                 <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900 dark:text-gray-100 text-left">
-                  Achievements
+                  Select "Achievements"
                 </h2>
                 <div className="w-16 h-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mb-8"></div>
                 <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -404,8 +404,8 @@ function App() {
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
                       <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">Platinum Ladle Award</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Innovation Excellence</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Recognized for breakthrough AI-inspired plating strategies</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Pretentious Excellence</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">For inventing a dessert so over-complicated it required a project manager</div>
                       <div className="text-xs font-medium text-blue-600 dark:text-blue-400">EpicureanVault Group</div>
                     </div>
                   </div>
@@ -413,9 +413,9 @@ function App() {
                   {/* IT Cost Optimization */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">42% Service Efficiency Gain</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Kitchen Performance</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Achieved massive kitchen performance optimization through ingredient workflow redesign</div>
+                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">42% Efficiency Gain</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Table Turnover Innovation</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Removed chairs from the restaurant so tables turned faster</div>
                       <div className="text-xs font-medium text-purple-600 dark:text-purple-400">NexusCore Dining</div>
                     </div>
                   </div>
@@ -424,8 +424,8 @@ function App() {
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
                       <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">18,500 Guests Served</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Global Pop-up Launch</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Launched a global pop-up dining experience across nine countries</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Pop-up Empire Expansion</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Across nine countries in my pop-up empire; most were just lost tourists</div>
                       <div className="text-xs font-medium text-green-600 dark:text-green-400">QuantumFeast Kitchens</div>
                     </div>
                   </div>
@@ -434,8 +434,8 @@ function App() {
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
                       <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">11 Signature Menus</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Culinary Portfolio</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Created and rolled out seasonal menus for 11 flagship restaurants</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Creative Redundancy</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">All featuring the same truffle oil, but described differently</div>
                       <div className="text-xs font-medium text-green-600 dark:text-green-400">QuantumFeast Kitchens</div>
                     </div>
                   </div>
@@ -444,8 +444,8 @@ function App() {
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
                       <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">83% Kitchen Automation</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Culinary Innovation</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Introduced intelligent cooking systems that reduced manual prep by 83%</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Digital Innovation</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Taught a blender to tweet</div>
                       <div className="text-xs font-medium text-green-600 dark:text-green-400">QuantumFeast Kitchens</div>
                     </div>
                   </div>
@@ -453,9 +453,9 @@ function App() {
                   {/* Rapid ROI */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">&lt;8 Months Lightning ROI</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Restaurant Success</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Turned a new farm-to-table restaurant profitable in under 8 months</div>
+                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">&lt;8 Months ROI</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Accidental Success</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Restaurant profitable after accidentally serving the wrong bill to a billionaire</div>
                       <div className="text-xs font-medium text-green-600 dark:text-green-400">QuantumFeast Kitchens</div>
                     </div>
                   </div>
@@ -479,7 +479,7 @@ function App() {
                 
                 {/* Timeline Items */}
                 <div className="space-y-8">
-                  {/* EpicureanVault Group - Current */}
+                  {/* EpicureanVault Group - Principal Culinary Consultant */}
                   <div className="relative flex items-center gap-6 md:gap-8">
                     <div className="relative z-10 flex-shrink-0">
                       <div className="w-8 h-8 bg-blue-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg flex items-center justify-center">
@@ -503,12 +503,12 @@ function App() {
                         </div>
                       </div>
                       <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
-                        Architect gourmet dining concepts for luxury resorts, cruise lines, and high-profile events. Lead culinary transformation projects, implement scalable service models, and introduce advanced farm-to-fork logistics.
+                        Designs absurdly complicated dining concepts for cruise ships, mountaintops, and anywhere normal people can't get to. Introduced $500 "dehydrated water" as a menu item.
                       </p>
                     </div>
                   </div>
 
-                  {/* NexusCore Dining - Head Chef */}
+                  {/* NexusCore Dining - Head Chaos Chef */}
                   <div className="relative flex items-center gap-6 md:gap-8">
                     <div className="relative z-10 flex-shrink-0">
                       <div className="w-8 h-8 bg-purple-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg flex items-center justify-center">
@@ -518,7 +518,7 @@ function App() {
                     <div className="flex-1 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
                       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
                         <div className="flex items-baseline gap-3">
-                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Head Chef</h3>
+                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Head Chaos Chef</h3>
                           <p className="text-purple-600 dark:text-purple-400 font-medium">NexusCore Dining</p>
                         </div>
                         <div className="text-sm text-gray-600 dark:text-gray-400">
@@ -527,7 +527,7 @@ function App() {
                         </div>
                       </div>
                       <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
-                        Orchestrated a full restaurant rebrand, integrating molecular gastronomy, seasonal foraging, and zero-waste operations. Delivered 35% service speed improvement and cut costs by 25%.
+                        Turned a family diner into a "micro-gastro experience hub" with 9-course breakfasts. Increased costs dramatically, but convinced customers it was art.
                       </p>
                     </div>
                   </div>
@@ -551,12 +551,12 @@ function App() {
                         </div>
                       </div>
                       <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
-                        Designed strategic menu blueprints, supplier ecosystems, and culinary roadmaps for new location launches.
+                        Created a menu layout shaped like a swan. Waiters hated it.
                       </p>
                     </div>
                   </div>
 
-                  {/* QuantumFeast Kitchens - Culinary Director */}
+                  {/* QuantumFeast Kitchens - Director of Culinary Overkill */}
                   <div className="relative flex items-center gap-6 md:gap-8">
                     <div className="relative z-10 flex-shrink-0">
                       <div className="w-8 h-8 bg-green-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg flex items-center justify-center">
@@ -566,7 +566,7 @@ function App() {
                     <div className="flex-1 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
                       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
                         <div className="flex items-baseline gap-3">
-                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Culinary Director</h3>
+                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Director of Culinary Overkill</h3>
                           <p className="text-green-600 dark:text-green-400 font-medium">QuantumFeast Kitchens</p>
                         </div>
                         <div className="text-sm text-gray-600 dark:text-gray-400">
@@ -575,7 +575,7 @@ function App() {
                         </div>
                       </div>
                       <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
-                        Directed 30+ innovation projects from concept to plate. Led nine international flagship kitchens, implemented automated sous-vide and fermentation labs, and scaled dining experiences across six countries.
+                        Installed a waterfall in the dining room to "enhance soup appreciation." Trained chefs to narrate the cooking process in haiku form.
                       </p>
                     </div>
                   </div>
@@ -599,7 +599,7 @@ function App() {
                         </div>
                       </div>
                       <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
-                        Pioneered next-generation fusion dining concepts, driving flavor vision and go-to-table strategy with focus on diner experience optimization.
+                        Invented glow-in-the-dark sushi for "nighttime fine dining experiences." Health inspectors were… unconvinced.
                       </p>
                     </div>
                   </div>
