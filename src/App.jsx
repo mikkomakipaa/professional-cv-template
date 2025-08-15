@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import './App.css';
-import profilePhoto from './assets/mikkomakipaa.jpg';
+import profilePhoto from './assets/placeholder-photo.jpg';
 
 function ChatbotWidget({ alwaysOpen }) {
   const [_open, _setOpen] = useState(alwaysOpen || false);
   const [messages, setMessages] = useState([
-    { sender: 'bot', text: 'Hi! I\'m Mikko\'s career sidekick that answers recruiter questions with facts from my own work history — no fluff, no guesswork.' }
+    { sender: 'bot', text: 'Hi! I\'m your career sidekick that answers recruiter questions with facts from my work history — no fluff, no guesswork.' }
   ]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
@@ -67,7 +67,7 @@ function ChatbotWidget({ alwaysOpen }) {
           'OpenAI-Beta': 'assistants=v2'
         },
         body: JSON.stringify({
-          assistant_id: 'asst_GpfPbiGFCD0GFwllfoaLQ2FA'
+          assistant_id: 'asst_PLACEHOLDER_ASSISTANT_ID'
         })
       });
       const runData = await runResponse.json();
@@ -239,7 +239,7 @@ function App() {
                 <div className="flex-shrink-0">
                   <img 
                     src={profilePhoto} 
-                    alt="Mikko Makipaa - Professional Photo"
+                    alt="John Doe - Professional Photo"
                     className="w-20 h-20 sm:w-24 sm:h-24 md:w-44 md:h-44 rounded-full border-2 md:border-4 border-white dark:border-gray-700 shadow-2xl ring-2 md:ring-4 ring-blue-100 dark:ring-blue-900/30 object-cover"
                   />
                 </div>
@@ -247,7 +247,7 @@ function App() {
                 {/* Name and Title */}
                 <div className="flex-1 min-w-0">
                   <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-1 md:mb-3 bg-gradient-to-r from-gray-900 to-gray-600 dark:from-gray-100 dark:to-gray-300 bg-clip-text text-transparent text-left leading-tight">
-                    Mikko Mäkipää
+                    John Doe
                   </h1>
                   <p className="text-sm sm:text-base md:text-2xl text-gray-700 dark:text-gray-300 mb-4 md:mb-6 font-medium text-left leading-tight">
                     Transformation programs and projects
@@ -257,17 +257,17 @@ function App() {
                   <div className="flex flex-wrap gap-x-8 gap-y-3 mb-4 text-sm">
                     <div className="text-left">
                       <div className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide">Experience</div>
-                      <div className="font-semibold text-gray-900 dark:text-gray-100">17+ Years</div>
+                      <div className="font-semibold text-gray-900 dark:text-gray-100">14+ Years</div>
                     </div>
                     <div className="text-left">
                       <div className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide">Current</div>
-                      <div className="font-semibold text-gray-900 dark:text-gray-100">Senior Advisor at Sofigate</div>
+                      <div className="font-semibold text-gray-900 dark:text-gray-100">Principal Consultant at TechnoVault Solutions</div>
                     </div>
                   </div>
                   <div className="mb-6 text-sm">
                     <div className="text-left">
                       <div className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide">Open to</div>
-                      <div className="font-semibold text-green-600 dark:text-green-400">Development Lead, Head of Development, Interim Manager and Project Lead</div>
+                      <div className="font-semibold text-green-600 dark:text-green-400">Technical Director, Innovation Lead, Interim CTO and Program Manager</div>
                     </div>
                   </div>
                   
@@ -289,7 +289,7 @@ function App() {
               
               {/* Career Progression Summary */}
               <div className="p-8 bg-gradient-to-r from-blue-50 via-purple-50 to-green-50 dark:from-gray-800 dark:via-gray-800 dark:to-gray-800 rounded-xl border border-gray-200 dark:border-gray-700">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-6 text-center">My 15+ years in IT</h3>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-6 text-center">My 14+ years in Tech Innovation</h3>
                 <div className="grid md:grid-cols-4 gap-6">
                   <div className="text-center">
                     <div className="w-12 h-12 bg-emerald-500 rounded-full mx-auto mb-3 flex items-center justify-center">
@@ -403,60 +403,60 @@ function App() {
                   {/* Customer Satisfaction */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">5-Star Rating</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Customer Satisfaction</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Awarded for consistently exceeding client expectations</div>
-                      <div className="text-xs font-medium text-blue-600 dark:text-blue-400">Sofigate</div>
+                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">Platinum Award</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Innovation Excellence</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Recognized for breakthrough AI implementation strategies</div>
+                      <div className="text-xs font-medium text-blue-600 dark:text-blue-400">TechnoVault Solutions</div>
                     </div>
                   </div>
 
                   {/* IT Cost Optimization */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">27% Reduction</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">IT Cost Optimization</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Cut operational costs by over one-fourth and boosted user satisfaction by 20%</div>
-                      <div className="text-xs font-medium text-purple-600 dark:text-purple-400">RSM Finland</div>
+                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">42% Efficiency Gain</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">System Performance</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Achieved massive performance optimization through ML-driven architecture</div>
+                      <div className="text-xs font-medium text-purple-600 dark:text-purple-400">NexusCore Dynamics</div>
                     </div>
                   </div>
 
                   {/* Global Platform Rollout */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">12,000 Users</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Global Platform Rollout</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Implemented and managed a global B2B platform, spanning seven countries</div>
-                      <div className="text-xs font-medium text-green-600 dark:text-green-400">Accountor</div>
+                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">18,500 Users</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Global Marketplace Launch</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Deployed scalable cloud platform across nine international markets</div>
+                      <div className="text-xs font-medium text-green-600 dark:text-green-400">QuantumFlow Systems</div>
                     </div>
                   </div>
 
                   {/* Product Leadership */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">7 Solutions</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Product Leadership</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Directed development and lifecycle management of seven distinct products</div>
-                      <div className="text-xs font-medium text-green-600 dark:text-green-400">Accountor</div>
+                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">11 Platforms</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Technology Portfolio</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Architected and led development of eleven cloud-native platforms</div>
+                      <div className="text-xs font-medium text-green-600 dark:text-green-400">QuantumFlow Systems</div>
                     </div>
                   </div>
 
                   {/* Process Automation */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">70% Cost Savings</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Process Automation</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Automated recurring processes, reducing recurring payment costs by 70%</div>
-                      <div className="text-xs font-medium text-green-600 dark:text-green-400">Accountor</div>
+                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">83% Automation</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">AI-Driven Optimization</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Implemented intelligent automation reducing manual workflows by 83%</div>
+                      <div className="text-xs font-medium text-green-600 dark:text-green-400">QuantumFlow Systems</div>
                     </div>
                   </div>
 
                   {/* Rapid ROI */}
                   <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 shadow-sm">
                     <div className="text-left">
-                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">&lt;12 Months</div>
-                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Rapid ROI</div>
-                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Delivered a profitable financial services platform within one year</div>
-                      <div className="text-xs font-medium text-green-600 dark:text-green-400">Accountor</div>
+                      <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">&lt;8 Months</div>
+                      <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-2">Lightning ROI</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mb-2">Achieved profitability for revolutionary fintech platform in under 8 months</div>
+                      <div className="text-xs font-medium text-green-600 dark:text-green-400">QuantumFlow Systems</div>
                     </div>
                   </div>
                 </div>
@@ -479,7 +479,7 @@ function App() {
                 
                 {/* Timeline Items */}
                 <div className="space-y-8">
-                  {/* Sofigate - Current */}
+                  {/* TechnoVault Solutions - Current */}
                   <div className="relative flex items-center gap-6 md:gap-8">
                     <div className="relative z-10 flex-shrink-0">
                       <div className="w-8 h-8 bg-blue-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg flex items-center justify-center">
@@ -489,26 +489,26 @@ function App() {
                     <div className="flex-1 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
                       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
                         <div className="flex items-baseline gap-3">
-                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Senior Advisor</h3>
-                          <p className="text-blue-600 dark:text-blue-400 font-medium">Sofigate</p>
+                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Principal Consultant</h3>
+                          <p className="text-blue-600 dark:text-blue-400 font-medium">TechnoVault Solutions</p>
                         </div>
                         <div className="flex flex-col md:flex-row md:items-center gap-2">
                           <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300">
                             Current Role
                           </span>
                           <div className="text-sm text-gray-600 dark:text-gray-400">
-                            <span>Oct 2019 - Present</span>
-                            <span className="block md:inline md:ml-2 text-xs text-gray-500 dark:text-gray-500">(5 years, 3 months)</span>
+                            <span>Mar 2020 - Present</span>
+                            <span className="block md:inline md:ml-2 text-xs text-gray-500 dark:text-gray-500">(4 years, 10 months)</span>
                           </div>
                         </div>
                       </div>
                       <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
-                        Lead technology and process transformation programs for clients across retail, industrial, education, and energy sectors. Designed and implemented governance frameworks, sourcing strategies, and agile delivery models.
+                        Architect cutting-edge technology solutions for clients across fintech, gaming, healthcare, and renewable energy sectors. Spearhead digital transformation initiatives and implement scalable cloud architectures with DevOps excellence.
                       </p>
                     </div>
                   </div>
 
-                  {/* RSM Finland - Interim CIO */}
+                  {/* NexusCore Dynamics - CTO */}
                   <div className="relative flex items-center gap-6 md:gap-8">
                     <div className="relative z-10 flex-shrink-0">
                       <div className="w-8 h-8 bg-purple-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg flex items-center justify-center">
@@ -518,21 +518,21 @@ function App() {
                     <div className="flex-1 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
                       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
                         <div className="flex items-baseline gap-3">
-                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Interim CIO</h3>
-                          <p className="text-purple-600 dark:text-purple-400 font-medium">RSM Finland</p>
+                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Chief Technology Officer</h3>
+                          <p className="text-purple-600 dark:text-purple-400 font-medium">NexusCore Dynamics</p>
                         </div>
                         <div className="text-sm text-gray-600 dark:text-gray-400">
-                          <span>Jan 2018 - Oct 2019</span>
-                          <span className="block md:inline md:ml-2 text-xs text-gray-500 dark:text-gray-500">(1 year, 9 months)</span>
+                          <span>Aug 2018 - Feb 2020</span>
+                          <span className="block md:inline md:ml-2 text-xs text-gray-500 dark:text-gray-500">(1 year, 7 months)</span>
                         </div>
                       </div>
                       <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
-                        Directed a full IT modernization program for a mid-market audit firm, including cloud migration, collaboration tool deployment, and security architecture upgrade. Achieved 27% cost reduction and 20% increase in user satisfaction.
+                        Orchestrated comprehensive digital transformation for a mid-market analytics firm, including AI integration, microservices architecture, and zero-trust security implementation. Delivered 35% performance improvement and 25% cost optimization.
                       </p>
                     </div>
                   </div>
 
-                  {/* RSM Finland - Enterprise Architect */}
+                  {/* NexusCore Dynamics - Solutions Architect */}
                   <div className="relative flex items-center gap-6 md:gap-8">
                     <div className="relative z-10 flex-shrink-0">
                       <div className="w-8 h-8 bg-purple-400 rounded-full border-4 border-white dark:border-gray-900 shadow-lg flex items-center justify-center">
@@ -542,21 +542,21 @@ function App() {
                     <div className="flex-1 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
                       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
                         <div className="flex items-baseline gap-3">
-                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Enterprise Architect</h3>
-                          <p className="text-purple-600 dark:text-purple-400 font-medium">RSM Finland</p>
+                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Solutions Architect</h3>
+                          <p className="text-purple-600 dark:text-purple-400 font-medium">NexusCore Dynamics</p>
                         </div>
                         <div className="text-sm text-gray-600 dark:text-gray-400">
-                          <span>Nov 2018 - Dec 2018</span>
+                          <span>Jun 2018 - Jul 2018</span>
                           <span className="block md:inline md:ml-2 text-xs text-gray-500 dark:text-gray-500">(2 months)</span>
                         </div>
                       </div>
                       <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
-                        Strategic IT architecture assessment, service catalogue and IT roadmap creation.
+                        Strategic technology blueprint design, API ecosystem architecture and cloud-native roadmap development.
                       </p>
                     </div>
                   </div>
 
-                  {/* Accountor - Development Manager */}
+                  {/* QuantumFlow Systems - Engineering Director */}
                   <div className="relative flex items-center gap-6 md:gap-8">
                     <div className="relative z-10 flex-shrink-0">
                       <div className="w-8 h-8 bg-green-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg flex items-center justify-center">
@@ -566,21 +566,21 @@ function App() {
                     <div className="flex-1 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
                       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
                         <div className="flex items-baseline gap-3">
-                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Development Manager</h3>
-                          <p className="text-green-600 dark:text-green-400 font-medium">Accountor</p>
+                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Engineering Director</h3>
+                          <p className="text-green-600 dark:text-green-400 font-medium">QuantumFlow Systems</p>
                         </div>
                         <div className="text-sm text-gray-600 dark:text-gray-400">
-                          <span>May 2010 - Nov 2018</span>
-                          <span className="block md:inline md:ml-2 text-xs text-gray-500 dark:text-gray-500">(8 years, 7 months)</span>
+                          <span>Sep 2012 - May 2018</span>
+                          <span className="block md:inline md:ml-2 text-xs text-gray-500 dark:text-gray-500">(5 years, 9 months)</span>
                         </div>
                       </div>
                       <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
-                        Led 25 IT initiatives from inception to deployment, serving as Product Owner for seven enterprise solutions. Introduced automation in payment processes, reducing recurring costs by 70%. Designed and launched a multi-country service portal for 12,000 customers. Turned a new financial services platform profitable within 12 months and expanded SaaS offerings to four European markets.
+                        Directed 30+ innovation projects from concept to production, serving as Technical Lead for nine cloud-native platforms. Implemented AI-driven automation reducing operational overhead by 75%. Architected and deployed a global marketplace serving 15,000+ active users. Transformed legacy monolith into profitable microservices platform within 8 months and scaled across six international markets.
                       </p>
                     </div>
                   </div>
 
-                  {/* Accountor - Product Manager */}
+                  {/* QuantumFlow Systems - Innovation Lead */}
                   <div className="relative flex items-center gap-6 md:gap-8">
                     <div className="relative z-10 flex-shrink-0">
                       <div className="w-8 h-8 bg-green-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg flex items-center justify-center">
@@ -590,16 +590,16 @@ function App() {
                     <div className="flex-1 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
                       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
                         <div className="flex items-baseline gap-3">
-                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Product Manager</h3>
-                          <p className="text-green-600 dark:text-green-400 font-medium">Accountor</p>
+                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Innovation Lead</h3>
+                          <p className="text-green-600 dark:text-green-400 font-medium">QuantumFlow Systems</p>
                         </div>
                         <div className="text-sm text-gray-600 dark:text-gray-400">
-                          <span>Oct 2008 - Apr 2010</span>
-                          <span className="block md:inline md:ml-2 text-xs text-gray-500 dark:text-gray-500">(1 year, 7 months)</span>
+                          <span>Jan 2011 - Aug 2012</span>
+                          <span className="block md:inline md:ml-2 text-xs text-gray-500 dark:text-gray-500">(1 year, 8 months)</span>
                         </div>
                       </div>
                       <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed text-left">
-                        Managed lifecycle and strategy for a travel and expense management platform, overseeing product enhancements and market alignment.
+                        Pioneered next-generation workflow automation platform, driving product vision and go-to-market strategy with focus on user experience optimization.
                       </p>
                     </div>
                   </div>
@@ -613,7 +613,7 @@ function App() {
               <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-gray-100">Ready to Connect?</h3>
               <div className="flex flex-wrap justify-center gap-4">
                 <a 
-                  href="mailto:pass_me_mail.corned865@passmail.net?subject=Job Opportunity&body=Hi Mikko,%0D%0A%0D%0AI'd like to discuss a potential opportunity with you.%0D%0A%0D%0ABest regards"
+                  href="mailto:john.doe@example.com?subject=Job Opportunity&body=Hi John,%0D%0A%0D%0AI'd like to discuss a potential opportunity with you.%0D%0A%0D%0ABest regards"
                   className="inline-flex items-center gap-3 px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105"
                 >
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -623,7 +623,7 @@ function App() {
                 </a>
                 
                 <a 
-                  href="https://www.linkedin.com/in/mikkomakipaa" 
+                  href="https://www.linkedin.com/in/johndoe" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 px-8 py-4 bg-white dark:bg-gray-800 border-2 border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-600 rounded-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105"
@@ -635,7 +635,7 @@ function App() {
                 </a>
                 
                 <a 
-                  href="https://outlook.office.com/bookwithme/user/b93bd784727b4f20a4d07114b34e7df6@sofigate.com?anonymous&ep=plink" 
+                  href="https://calendly.com/johndoe" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 px-8 py-4 bg-white dark:bg-gray-800 border-2 border-purple-600 text-purple-600 dark:text-purple-400 hover:bg-purple-600 hover:text-white dark:hover:bg-purple-600 rounded-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105"
@@ -647,7 +647,7 @@ function App() {
                 </a>
               </div>
               <p className="text-sm text-gray-600 dark:text-gray-400 mt-6 text-center">
-                Note: Email uses PassMail forwarding service for privacy. Messages are automatically forwarded to my primary email address.
+                Note: Professional email contact for inquiries and opportunities.
               </p>
             </div>
             </main>
@@ -664,7 +664,7 @@ function App() {
           <p className="text-center text-sm text-gray-500 dark:text-gray-400 py-4 flex items-center justify-center flex-wrap">
             <span>Vibe coding experiment using Claude Code, OpenAI, GitHub and Vercel.</span>
             <a 
-              href="https://github.com/mikkomakipaa/professional-cv-website" 
+              href="https://github.com/johndoe/professional-cv-website" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 ml-1 text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors"

@@ -16,7 +16,7 @@ A modern, responsive professional CV website built with React, Vite, and Tailwin
 
 ## 🚀 Live Demo
 
-Visit the live site: [https://mikko-makipaa-cv.vercel.app](https://mikko-makipaa-cv.vercel.app)
+Visit the live site: [https://professional-cv-template.vercel.app/](https://professional-cv-template.vercel.app/)
 
 ## 🛠️ Technology Stack
 
@@ -40,7 +40,7 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/mikkomakipaa/professional-cv-website.git
+git clone https://github.com/johndoe/professional-cv-website.git
 cd professional-cv-website
 ```
 
@@ -79,7 +79,7 @@ The application will be available at `http://localhost:5173`
 ### Personal Information
 Edit the following in `src/App.jsx`:
 
-1. **Profile Photo**: Replace `src/assets/mikkomakipaa.jpg` with your photo
+1. **Profile Photo**: Replace `src/assets/placeholder-photo.jpg` with your photo
 2. **Personal Details**: Update name, title, and contact information
 3. **Career Timeline**: Modify the work experience data
 4. **Professional Overview**: Update the description and achievements
@@ -215,7 +215,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have questions about using this template:
 
-1. Check the [Issues](https://github.com/mikkomakipaa/professional-cv-website/issues) page
+1. Check the [Issues](https://github.com/johndoe/professional-cv-website/issues) page
 2. Create a new issue with detailed description
 3. Provide error messages and browser information
 
