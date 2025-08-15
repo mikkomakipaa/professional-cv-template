@@ -664,7 +664,7 @@ function App() {
           <p className="text-center text-sm text-gray-500 dark:text-gray-400 py-4 flex items-center justify-center flex-wrap">
             <span>Vibe coding experiment using Claude Code, OpenAI, GitHub and Vercel.</span>
             <a 
-              href="https://github.com/johndoe/professional-cv-website" 
+              href="https://github.com/mikkomakipaa/professional-cv-template" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 ml-1 text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors"
