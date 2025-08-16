@@ -249,7 +249,7 @@ function App() {
                 <div className="flex-shrink-0">
                   <img 
                     src={profilePhoto} 
-                    alt="John Doe - Culinary Professional"
+                    alt="Alessandro Codibollo - Culinary Professional"
                     className="w-20 h-20 sm:w-24 sm:h-24 md:w-44 md:h-44 rounded-full border-2 md:border-4 border-white dark:border-gray-700 shadow-2xl ring-2 md:ring-4 ring-blue-100 dark:ring-blue-900/30 object-cover"
                   />
                 </div>
@@ -257,10 +257,10 @@ function App() {
                 {/* Name and Title */}
                 <div className="flex-1 min-w-0">
                   <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-1 md:mb-3 bg-gradient-to-r from-gray-900 to-gray-600 dark:from-gray-100 dark:to-gray-300 bg-clip-text text-transparent text-left leading-tight">
-                    John Doe
+                    Alessandro Codibollo
                   </h1>
                   <p className="text-sm sm:text-base md:text-2xl text-gray-700 dark:text-gray-300 mb-4 md:mb-6 font-medium text-left leading-tight">
-                    Supreme Commander of Culinary Chaos & Over-Seasoned Transformation
+                    Maestro of Culinary Transformation & Digital Gastronomy
                   </p>
                   
                   {/* Compact Quick Facts */}
@@ -327,7 +327,7 @@ function App() {
                       <span className="text-white font-bold">4</span>
                     </div>
                     <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Transformation Guru</h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">Implemented "culinary operating models" nobody else understood, but investors clapped anyway.</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">Turned lasagna into a SaaS model: subscription layers, available in the cloud (literally, served on dry ice).</p>
                   </div>
                 </div>
               </div>
@@ -350,8 +350,8 @@ function App() {
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Bureaucratic Menu Management</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">Can stretch a recipe launch into a 12-month "culinary change program." Specializes in unnecessary complexity and making simple dishes sound impossibly sophisticated.</p>
+                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Agile Menu Development</h4>
+                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">New gnocchi flavors released in two-week sprints. Master of iterative culinary development and continuous improvement of pasta shapes.</p>
                       </div>
                     </div>
                   </div>
@@ -366,7 +366,7 @@ function App() {
                       </div>
                       <div className="flex-1">
                         <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Restaurant Expansion Program Management</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">Think global domination, but with soup. Expert in opening restaurants in places nobody asked for them and convincing investors it's visionary.</p>
+                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">Think global domination, but with soup. Strategic scaling of dining concepts across impossible locations and improbable market conditions.</p>
                       </div>
                     </div>
                   </div>
@@ -381,8 +381,8 @@ function App() {
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Pretentious Recipe Development</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">Ingredient optimization using rare spices nobody can pronounce. Transforms ordinary ingredients into "artisanal experiences" with 47-step preparation processes.</p>
+                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">IoT Gastronomy</h4>
+                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">Every fork is smart, every plate reports KPI data. Pioneering the convergence of culinary arts and Internet of Things technology for data-driven dining experiences.</p>
                       </div>
                     </div>
                   </div>
@@ -397,7 +397,7 @@ function App() {
                       </div>
                       <div className="flex-1">
                         <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2 text-left">Leadership</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">Motivating teams through confusing metaphors and expensive aprons. Successfully convinced entire kitchen staff that plating is "performance art" and cooking times are "artistic interpretation."</p>
+                        <p className="text-sm text-gray-600 dark:text-gray-400 text-left">Motivating teams through confusing metaphors and expensive aprons. Expert in culinary team management using breakthrough motivational techniques and premium uniform strategies.</p>
                       </div>
                     </div>
                   </div>
@@ -499,7 +499,7 @@ function App() {
                     <div className="flex-1 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
                       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
                         <div className="flex items-baseline gap-3">
-                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Principal Chef Consultant</h3>
+                          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Principal Culinary Consultant</h3>
                           <p className="text-blue-600 dark:text-blue-400 font-medium">EpicureanVault Group</p>
                         </div>
                         <div className="flex flex-col md:flex-row md:items-center gap-2">
@@ -623,7 +623,7 @@ function App() {
               <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-gray-100">Ready to Connect?</h3>
               <div className="flex flex-wrap justify-center gap-4">
                 <a 
-                  href="mailto:john.doe@example.com?subject=Job Opportunity&body=Hi John,%0D%0A%0D%0AI'd like to discuss a potential opportunity with you.%0D%0A%0D%0ABest regards"
+                  href="mailto:alessandro.codibollo@example.com?subject=Culinary Opportunity&body=Hi Alessandro,%0D%0A%0D%0AI'd like to discuss a potential culinary opportunity with you.%0D%0A%0D%0ABest regards"
                   className="inline-flex items-center gap-3 px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105"
                 >
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -633,7 +633,7 @@ function App() {
                 </a>
                 
                 <a 
-                  href="https://www.linkedin.com/in/johndoe" 
+                  href="https://www.linkedin.com/in/alessandrocodibollo" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 px-8 py-4 bg-white dark:bg-gray-800 border-2 border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-600 rounded-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105"
@@ -645,7 +645,7 @@ function App() {
                 </a>
                 
                 <a 
-                  href="https://calendly.com/johndoe" 
+                  href="https://calendly.com/alessandrocodibollo" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 px-8 py-4 bg-white dark:bg-gray-800 border-2 border-purple-600 text-purple-600 dark:text-purple-400 hover:bg-purple-600 hover:text-white dark:hover:bg-purple-600 rounded-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105"
